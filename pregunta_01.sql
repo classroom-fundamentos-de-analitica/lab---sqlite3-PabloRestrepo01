@@ -16,5 +16,4 @@
 --  0  15137.63
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT sum(c12) FROM tbl1
-GROUP BY k1;
+SELECT SUM(c12) FROM tbl1
