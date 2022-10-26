@@ -17,4 +17,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 SELECT sum(c12) FROM tbl1
-GROUP BY c12;
+GROUP BY k1;
