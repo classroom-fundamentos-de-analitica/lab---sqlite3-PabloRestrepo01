@@ -39,5 +39,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT COUNT(*) FROM tbl1
-WHERE YEAR(c14) = 2018
-GROUP BY YEAR(c14);
+WHERE EXTRACT(YEAR FROM c14) = 2018
+GROUP BY EXTRACT(YEAR FROM c14);
