@@ -39,5 +39,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT COUNT(*) FROM tbl1
-WHERE SUBSTR(c14, 1, 4) = 2018
+WHERE SUBSTR(c14, 1, 4) LIKE '2018'
 GROUP BY SUBSTR(c14, 1, 4);
