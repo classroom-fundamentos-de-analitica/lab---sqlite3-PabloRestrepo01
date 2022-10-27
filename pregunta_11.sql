@@ -38,6 +38,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT year(c14) AS YEAR, count(k1) AS CANT FROM tbl1
+SELECT COUNT(k1) FROM tbl1
 WHERE YEAR(c14) = 2018
 GROUP BY YEAR(c14);
