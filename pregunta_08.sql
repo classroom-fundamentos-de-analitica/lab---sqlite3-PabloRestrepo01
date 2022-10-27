@@ -41,6 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT YEAR(c23) AS `strftime('%Y', c23)`, avg(c21)
+SELECT SUBSTR(c23, 1, 4) AS `strftime('%Y', c23)`, avg(c21)
 FROM tbl2
-GROUP by YEAR(c23);
+GROUP by SUBSTR(c23, 1, 4);
